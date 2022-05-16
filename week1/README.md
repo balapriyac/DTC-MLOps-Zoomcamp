@@ -12,3 +12,27 @@ The various stages in a machine learning project can be broadly captured in the 
   - If the performance of the model degrades, can you retrain the model in a cost-effective manner?
   - How do you ensure that the deployed model performs as expected—that is, how do you monitor the model's performance in production?
   - What are the challenges associated with monitoring ML models?
+
+## ⚙ Environment Setup
+
+### 1. Install Anaconda distribution of Python
+```sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+
+```
+
+### 2. Update existing packages
+```sh
+$ sudo apt update
+```
+### 3. Install Docker
+```sh
+$ 
+```
+
+### 4. Install Docker Compose
+```sh
+$ 
+```
+
+### [Optional] Run Docker without `sudo`
