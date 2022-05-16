@@ -6,7 +6,7 @@ When you are designing a machine learning system, your job doesn't end with buil
 
 ## 🎯 Steps in a Machine Learning Project
 The various stages in a machine learning project can be broadly captured in the following three steps:
-1. **Design**: In the `design` step, you are considering the problem at hand—to decide whether or not you'll need a machine learning algorithm to achieve objective 
+1. **Design**: In the `design` step, you are considering the problem at hand—to decide whether or not you'll need a machine learning algorithm to achieve the objective. 
 2. **Train**: Once you decide on using a machine learning algorithm, you `train` the model and optimize its performance on the validation dataset.
 3. **Operate**: The `operate` state captures the performance of the model after it's deployed. Some of the questions that you'll answer throughout the course, include:
   - If the performance of the model degrades, can you retrain the model in a cost-effective manner?
@@ -40,7 +40,7 @@ $ mkdir soft
 $ cd soft
 ```
 
-4.2 Get the latest release of Docker Compose, go to https://github.com/docker/compose and download the release for your OS.
+4.2 To get the latest release of Docker Compose, go to https://github.com/docker/compose and download the release for your OS.
 
 ```sh
 $ wget https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -O docker-compose
