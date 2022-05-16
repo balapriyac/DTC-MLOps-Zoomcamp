@@ -36,8 +36,8 @@ $ sudo apt install docker.io
 
 4.1 Install docker-compose in a separate directory
 ```sh
-mkdir soft
-cd soft
+$ mkdir soft
+$ cd soft
 ```
 
 4.2 Get the latest release of Docker Compose, go to https://github.com/docker/compose and download the release for your OS.
