@@ -15,6 +15,8 @@ The various stages in a machine learning project can be broadly captured in the 
 
 ## ⚙ Environment Setup
 
+Recommended development environment: Linux
+
 ### 1. Download and install the Anaconda distribution of Python
 ```sh
 $ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
@@ -57,3 +59,11 @@ $ source .bashrc
 ```
 
 ### [Optional] Run Docker without `sudo`
+```sh
+$ sudo groupadd docker
+$ sudo usermod -aG docker $USER
+```
+### 5. Run Docker
+```sh
+$ docker run hello-world
+``
