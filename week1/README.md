@@ -15,7 +15,7 @@ The various stages in a machine learning project can be broadly captured in the 
 
 ## ⚙ Environment Setup
 
-### 1. Install Anaconda distribution of Python
+### 1. Download and install the Anaconda distribution of Python
 ```sh
 $ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
@@ -27,12 +27,33 @@ $ sudo apt update
 ```
 ### 3. Install Docker
 ```sh
-$ 
+$ sudo apt install docker.io
 ```
 
 ### 4. Install Docker Compose
+
+4.1 Install docker-compose in a separate directory
 ```sh
-$ 
+mkdir soft
+cd soft
+```
+
+4.2 Get the latest release of Docker Compose, go to https://github.com/docker/compose and download the release for your OS.
+
+```sh
+$ wget https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -O docker-compose
+```
+4.3 Make it executable
+```sh
+$ chmod +x docker-compose
+```
+4.4 Add to path
+```sh
+$ nano .bashrc
+# In .bashrc, add:
+export PATH="${HOME}/soft:${PATH}"
+# Run
+$ source .bashrc
 ```
 
 ### [Optional] Run Docker without `sudo`
