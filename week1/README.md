@@ -1,4 +1,4 @@
-# 📋 MLOps Zoomcamp: Week 1 Notes
+# 📋 Week 1 Notes: Intro & Environment Setup
 
 When you are designing a machine learning system, your job doesn't end with building the model—and achieving a high accuracy score and a low validation error! For the model to be actually helpful—you will have to consider deploying it, and also ensure that the model's performance does not degrade over time. And MLOps is a set of *best practices* for putting machine learning models into production.
 
