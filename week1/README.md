@@ -66,4 +66,4 @@ $ sudo usermod -aG docker $USER
 ### 5. Run Docker
 ```sh
 $ docker run hello-world
-``
+```
